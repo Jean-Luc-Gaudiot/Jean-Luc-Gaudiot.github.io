@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Endorsements</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script type="module" src="support_files/endorsements_old.js"></script>
+    <script type="module" src="support_files/endorsement_entries_old.js"></script>
+    <link href="support_files/endorse.css" rel="stylesheet" type="text/css">
+</head>
+
+<body onload="loadMapOld()">
+
+<section class="TitleBanner" id="titleBanner" >
+    <h1 class="Title" id="title">Jean-Luc Gaudiot for Division V Director</h1>
+</section>
+<section class="banner" id=banner >
+    <a class="bannerLink" href='https://www.ieee.org/election'>IEEE Voting Site</a>
+</section>
+<section class="navigationBar" data-scrolled="true" id="navBar" >
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="bio.html">Biography</a></li>
+            <li><a href="awards.html">Awards</a></li>
+            <li><a href="home_university_service.html">Home University Service</a></li>
+            <li><a href="IEEE_service.html">Professional Community Service</a></li>
+            <li><a href="scholarly_work.html">Scholarly work</a></li>
+            <li><a class="active" href="endorsements.html">Endorsements</a></li>
+            <!--<li><a href="support_files/Application%20Form.pdf">Nomination Form</a></li>-->
+            <li><a href="support_files/resume.pdf">CV</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+</section>
+<script>
+    function loadListOld(){
+        var map = document.getElementById("map");
+        var mapButton =  document.getElementById("mapButton")
+        var list = document.getElementById("list");
+        var listButton =  document.getElementById("listButton")
+        map.hidden = true;
+        mapButton.hidden= false;
+        list.hidden =  false;
+        listButton.hidden = true;
+    }
+
+    function loadMapOld(){
+        var map = document.getElementById("map");
+        var mapButton =  document.getElementById("mapButton")
+        var list = document.getElementById("list");
+        var listButton =  document.getElementById("listButton")
+        map.hidden = false;
+        mapButton.hidden= true;
+        list.hidden =  true;
+        listButton.hidden = false;
+    }
+</script>
+
+<section class="bodySection" id="bodySection">
+    <button id="listButton" onclick="loadListOld()">List View</button>
+    <button id="mapButton" onclick="loadMapOld()" >Map View</button>
+    <br />
+    <div class="map" id="map" ></div>
+    <script>
+        (g => {
+            var h, a, k, p = "The Google Maps JavaScript API", c = "google", l = "importLibrary", q = "__ib__",
+                m = document, b = window;
+            b = b[c] || (b[c] = {});
+            var d = b.maps || (b.maps = {}), r = new Set, e = new URLSearchParams,
+                u = () => h || (h = new Promise(async (f, n) => {
+                    await (a = m.createElement("script"));
+                    e.set("libraries", [...r] + "");
+                    for (k in g) e.set(k.replace(/[A-Z]/g, t => "_" + t[0].toLowerCase()), g[k]);
+                    e.set("callback", c + ".maps." + q);
+                    a.src = `https://maps.${c}apis.com/maps/api/js?` + e;
+                    d[q] = f;
+                    a.onerror = () => h = n(Error(p + " could not load."));
+                    a.nonce = m.querySelector("script[nonce]")?.nonce || "";
+                    m.head.append(a)
+                }));
+            d[l] ? console.warn(p + " only loads once. Ignoring:", g) : d[l] = (f, ...n) => r.add(f) && u().then(() => d[l](f, ...n))
+        })({
+            key: "AIzaSyAnlP9yc1txR-x4Bq21SCGhDm4G4fn3W7s",
+            v: "weekly",
+        });
+    </script>
+    <script type="module">
+        import {fillListOld} from "./support_files/endorsement_entries_old.js";
+        fillListOld()
+    </script>
+
+    <div class="list" id="list" hidden="hidden"></div>
+
+</section>
+
+<section class="footer" id="footer">
+    <p class="footNote">Disclaimer: The opinions on this page are mine and are not necessarily those of the IEEE
+        Computer Society or the
+        IEEE.</p>
+</section>
+
+</body>
+
+</html>

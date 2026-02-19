@@ -1,0 +1,153 @@
+.TitleBanner {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 15%;
+    background-color: #04AA6D;
+
+
+    .Title {
+        display: block;
+        color: white;
+        text-align: center;
+        font-size: 2.5em;
+        font-family: 'Source Sans Pro Topnav', sans-serif
+    }
+}
+
+.banner {
+    position: fixed;
+    background-color: #2b3460;
+    top: 15%;
+    height: 5%;
+    width: 100%;
+}
+
+.bannerLink {
+    display: inline-block;
+    width: inherit;
+    color: #f1f1f1;
+    font-size: 1.75em !important;
+    font-weight: bold;
+    padding-top: 5px;
+    text-decoration: none;
+    font-family: 'Source Sans Pro Topnav', sans-serif;
+    text-align: center;
+}
+
+
+.bannerLink:hover, .bannerLink:active {
+    background-color: #151515;
+}
+
+.navigationBar {
+    position: fixed;
+    left: 8px;
+    top: 20%;
+    scroll-behavior: smooth;
+    height: 75%;
+    width: 15%;
+    background-color: #f1f1f1;
+    font-family: 'Source Sans Pro Topnav', sans-serif;
+
+    ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        width: inherit;
+        background-color: #f1f1f1;
+        font-weight: bold;
+        /*font-family: "Times New Roman", serif;*/
+        font-size: 1.15em;
+
+        li a {
+            display: block;
+            color: #000;
+            padding: 8px 16px;
+            text-decoration: none;
+        }
+
+        li a:hover {
+            background-color: #555;
+            color: white;
+        }
+
+        li a.active {
+            background-color: #04AA6D;
+            color: white;
+
+        }
+
+    }
+
+}
+
+.bodySection {
+    position: fixed;
+    top: 20%;
+    right: 0;
+    background-color: initial;
+    width: 80%;
+    height: 75%;
+    padding-top: 1px;
+    overflow: auto;
+}
+#map {
+    position: relative;
+    padding-top: 1%;
+    height: 75%;
+    width: 90%;
+    top: 5%;
+    right: inherit;
+}
+
+.list{
+    height: 90%;
+    width: 90%;
+    overflow-y: auto;
+    font-family: 'Source Sans Pro Topnav', sans-serif;
+}
+
+.list::-webkit-scrollbar {
+    display: none;
+}
+
+.list ol ul{
+    list-style-type: none;
+    padding-top: 2px;
+    border: 1px solid #888;
+}
+.list ol ul li:last-child {
+    border-bottom: none
+}
+button {
+    background-color: white;
+    color: black;
+    border: 2px solid green;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+}
+
+button:hover{
+    background-color: green;
+    color: white;
+}
+
+
+
+.footer {
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    max-height: 5%;
+    line-height: 5%;
+    background-color: #04AA6D;
+    text-align: center;
+
+    p.footNote {
+        display: inline-block;
+        vertical-align: middle;
+        color: #f1f1f1;
+    }
+}
