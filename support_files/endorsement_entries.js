@@ -272,21 +272,21 @@ export const countries = [
                 ],
             }],
     },
-    {
-        country_name: 'Japan',
-        endorsements:
-            [{
-                coordinates: [35.7087, 139.7196],
-                quote: [
-                    'Professor Jean-Luc Gaudiot is an internationally famous computer researcher who was the IEEE Computer Society President in 2017. I have been working with him for years for the Computer Society members and the evolution of computer education, research and development as President in 2018. In addition, we are working together as ACM/IEEE ISCA 2025@Tokyo General Co-Chairs. I strongly believe Jean-Luc’s leadership and vision will give us innovation in computer research and education as the IEEE Division V Director. I am pleased to endorse his candidacy for the vital position of Computer Society Division Director.'
-                ],
-                author: [
-                    'Professor Hironori Kasahara',
-                    'Department of Computer Science & Engineering',
-                    'Ex-Senior Executive Vice President, Waseda University, Tokyo, Japan'
-                ],
-            }],
-    },
+    // {
+    //     country_name: 'Japan',
+    //     endorsements:
+    //         [{
+    //             coordinates: [35.7087, 139.7196],
+    //             quote: [
+    //                 'Professor Jean-Luc Gaudiot is an internationally famous computer researcher who was the IEEE Computer Society President in 2017. I have been working with him for years for the Computer Society members and the evolution of computer education, research and development as President in 2018. In addition, we are working together as ACM/IEEE ISCA 2025@Tokyo General Co-Chairs. I strongly believe Jean-Luc’s leadership and vision will give us innovation in computer research and education as the IEEE Division V Director. I am pleased to endorse his candidacy for the vital position of Computer Society Division Director.'
+    //             ],
+    //             author: [
+    //                 'Professor Hironori Kasahara',
+    //                 'Department of Computer Science & Engineering',
+    //                 'Ex-Senior Executive Vice President, Waseda University, Tokyo, Japan'
+    //             ],
+    //         }],
+    // },
     {
         country_name: 'Turkey',
         endorsements:
