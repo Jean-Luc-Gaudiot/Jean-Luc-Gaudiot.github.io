@@ -6,7 +6,7 @@ export const countries = [
                 {
                     coordinates: [33.883683625852136, -117.88482435025809],
                     quote: [
-                        'Jean-Luc brings an incredible journey supporting IEEE computer society and its many services. I have observed him in IEEE functions and was always impressed with his dedication to promote IEEE, bring efficiencies and work hard to make it a very successful solid organization.',
+                        'Jean-Luc  brings an incredible journey supporting IEEE computer society and its many services. I have observed him in IEEE functions and was always impressed with his dedication to promote IEEE, bring efficiencies and work hard to make it a very successful solid organization.',
                         'He brings together research, teaching and service, but above all leadership, which is what make a big difference for a president. I fully support his nomination and I am confident he will make a very successful IEEE president.',
                     ],
                     author: [
