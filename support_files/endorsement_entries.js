@@ -6,9 +6,20 @@ export const countries = [
                 {
                     coordinates: [33.883683625852136, -117.88482435025809],
                     quote: [
-                        'Jean-Luc  brings an incredible journey supporting IEEE computer society and its many services. I have observed him in IEEE functions and was always impressed with his dedication to promote IEEE, bring efficiencies and work hard to make it a very successful solid organization.',
-                        'He brings together research, teaching and service, but above all leadership, which is what make a big difference for a president. I fully support his nomination and I am confident he will make a very successful IEEE president.',
-                    ],
+                        'I’ve known Jean-Luc Gaudiot for many years through our shared work in the IEEE Computer Society and other IEEE activities. I’ve seen firsthand how he handles high-stakes and complex projects. Jean-Luc doesn’t just participate in IEEE—he dedicates himself to it. Whether he’s making tough organizational decisions, advocating for improvements in conferences and publications, or mentoring younger volunteers, he always brings clarity, calm judgment, and an instinct for actions that strengthen the organization rather than seek convenience.
+
+ 
+
+One quality I’ve always appreciated about Jean-Luc is that he listens carefully before taking the lead. He has a rare talent for bringing together people with different priorities into productive conversations and turning those into actionable results. I’ve seen him do this repeatedly—quietly, effectively, and without ego. This kind of leadership isn’t common, and it’s exactly what’s needed at the Division Director level.
+
+ 
+
+Jean-Luc’s career combines significant research achievements, extensive teaching experience, and long-standing service to IEEE. But what stands out most to me—above all—is his integrity. When he commits to something, you can be sure it will be done thoroughly and thoughtfully. When he represents IEEE, he does so with professionalism and genuine pride in the organization's mission.
+
+ 
+
+For these reasons and many more, I wholeheartedly and enthusiastically support Jean-Luc Gaudiot for IEEE Division Director. I trust his judgment, I value his leadership, and I believe he will continue to strengthen IEEE in meaningful ways.'
+                 ],
                     author: [
                         'Sorel Reisman',
                         'Cal State Fullerton Emeritus Professor - IEEE Computer Society President Emeritus'
