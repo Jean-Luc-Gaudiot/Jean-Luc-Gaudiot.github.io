@@ -6,20 +6,9 @@ export const countries = [
                 {
                     coordinates: [33.883683625852136, -117.88482435025809],
                     quote: [
-                        'I’ve known Jean-Luc Gaudiot for many years through our shared work in the IEEE Computer Society and other IEEE activities. I’ve seen firsthand how he handles high-stakes and complex projects. Jean-Luc doesn’t just participate in IEEE—he dedicates himself to it. Whether he’s making tough organizational decisions, advocating for improvements in conferences and publications, or mentoring younger volunteers, he always brings clarity, calm judgment, and an instinct for actions that strengthen the organization rather than seek convenience.
-
- 
-
-One quality I’ve always appreciated about Jean-Luc is that he listens carefully before taking the lead. He has a rare talent for bringing together people with different priorities into productive conversations and turning those into actionable results. I’ve seen him do this repeatedly—quietly, effectively, and without ego. This kind of leadership isn’t common, and it’s exactly what’s needed at the Division Director level.
-
- 
-
-Jean-Luc’s career combines significant research achievements, extensive teaching experience, and long-standing service to IEEE. But what stands out most to me—above all—is his integrity. When he commits to something, you can be sure it will be done thoroughly and thoughtfully. When he represents IEEE, he does so with professionalism and genuine pride in the organization's mission.
-
- 
-
-For these reasons and many more, I wholeheartedly and enthusiastically support Jean-Luc Gaudiot for IEEE Division Director. I trust his judgment, I value his leadership, and I believe he will continue to strengthen IEEE in meaningful ways.'
-                 ],
+                        'Jean-Luc  brings an incredible journey supporting IEEE computer society and its many services. I have observed him in IEEE functions and was always impressed with his dedication to promote IEEE, bring efficiencies and work hard to make it a very successful solid organization.',
+                        'He brings together research, teaching and service, but above all leadership, which is what make a big difference for a president. I fully support his nomination and I am confident he will make a very successful IEEE president.',
+                    ],
                     author: [
                         'Sorel Reisman',
                         'Cal State Fullerton Emeritus Professor - IEEE Computer Society President Emeritus'
@@ -27,19 +16,7 @@ For these reasons and many more, I wholeheartedly and enthusiastically support J
                 }, {
                 coordinates: [30.266666, -97.733330],
                 quote: [
-                    ' I’ve known Jean-Luc Gaudiot for many years through our shared work in the IEEE Computer Society and other IEEE activities. I’ve seen firsthand how he handles high-stakes and complex projects. Jean-Luc doesn’t just participate in IEEE—he dedicates himself to it. Whether he’s making tough organizational decisions, advocating for improvements in conferences and publications, or mentoring younger volunteers, he always brings clarity, calm judgment, and an instinct for actions that strengthen the organization rather than seek convenience.
-
- 
-
-One quality I’ve always appreciated about Jean-Luc is that he listens carefully before taking the lead. He has a rare talent for bringing together people with different priorities into productive conversations and turning those into actionable results. I’ve seen him do this repeatedly—quietly, effectively, and without ego. This kind of leadership isn’t common, and it’s exactly what’s needed at the Division Director level.
-
- 
-
-Jean-Luc’s career combines significant research achievements, extensive teaching experience, and long-standing service to IEEE. But what stands out most to me—above all—is his integrity. When he commits to something, you can be sure it will be done thoroughly and thoughtfully. When he represents IEEE, he does so with professionalism and genuine pride in the organization's mission.
-
- 
-
-For these reasons and many more, I wholeheartedly and enthusiastically support Jean-Luc Gaudiot for IEEE Division Director. I trust his judgment, I value his leadership, and I believe he will continue to strengthen IEEE in meaningful ways.'
+                    ' In my view there are several necessary conditions for being an outstanding Division Director. The candidate must be knowledgeable on IEEE issues, and deep understanding of the mechanisms available within IEEE to deal with them. Jean-Luc has served in many key positions in IEEE for many years, including President of the Computer Society, which makes him exceptionally knowledgeable where it counts. The candidate must be genuinely fair minded. Anyone who knows Jean-Luc knows he gets high marks on this. Finally, the candidate must enjoy performing the service that being a Division Director will entail. Jean-Luc has demonstrated that commitment to service in every IEEE role he has assumed. Bottom line: It is a pleasure to endorse his candidacy for Division Director with no reservations whatsoever. In my view, IEEE would be lucky to have Jean-Luc in that role.'
                 ],
                 author: [
                     'Yale Patt, Professor',
@@ -107,7 +84,7 @@ For these reasons and many more, I wholeheartedly and enthusiastically support J
             }, {
                 coordinates: [34.066242, -118.445328],
                 quote: [
-                    ' Jean Luc is a long term member of the IEEE who knows the organization well, has served in many important capacities, and knows how it works.  He will be an effective advocate for ideas that will be the best for the Institute and the best for the Computer Society.  He has my full support.  '
+                    ' I have known and worked with Professor Jean-Luc Gaudiot for over 25 years and he has my strong endorsement for IEEE Computer Society Division V Director. He has been an outstanding leader in the IEEE Computer Society for decades and will be highly effective as Division V Director.'
                 ],
                 author: [
                     'Dwight Streit, UCLA Engineering Professor Emeritus,',
@@ -359,7 +336,7 @@ For these reasons and many more, I wholeheartedly and enthusiastically support J
             }, {
                 coordinates: [39.1081, 117.1762],
                 quote: [
-                    ' I worked with Prof. Gaudiot in my role as one of the members of the TPDS EIC Search Committee and he was the chair. From this event, I could see his deep love of the IEEE Computer Society. Prof. Gaudiot is a remarkable academic model, which can be seen from his knowledge, visionary and thought-provoking thinking, prompt reaction, etc. Furthermore, Prof. Gaudiot has contributed much to the IEEE Computer Society and know well about this society. I have no doubt that Professor Gaudiot will be an outstanding representative of the Computer Society as a Division Director.  I was glad to work with him on the organizing committee of ISCA 2025 to make it the roaring success it was.'
+                    ' I worked with Prof. Gaudiot in my role as one of the members of the TPDS EIC Search Committee and he was the chair. From this event, I could see his deep love of the IEEE Computer Society. Prof. Gaudiot is a remarkable academic model, which can be seen from his knowledge, visionary and thought-provoking thinking, prompt reaction, etc. Furthermore, Prof. Gaudiot has contributed much to the IEEE Computer Society and know well about this society. I have no doubt that Professor Gaudiot will be an outstanding representative of the Computer Society as a Division Director.'
                 ],
                 author: [
                     'Keqiu Li',
@@ -392,7 +369,7 @@ For these reasons and many more, I wholeheartedly and enthusiastically support J
             [{
                 coordinates: [-27.4954306, 153.0120301],
                 quote: [
-                    'I have known Professor Gaudiot for nearly 30 years both professionally and personally. His expertise in parallel computing is well known and he has made major contributions to the field over a long period. He also makes substantial contributions to the professional activities of the IEEE through various committees, boards and journal editorships. On a personal level, Jean-Luc is hard working and operates at the highest ethical standard. For all these reasons he is very well placed to serve as IEEE Computer Society Division Director and i recommend his wholeheartedly.  I have further observed his leadership of ISCA 2025.  As co General Chair, he steered the conference to a record attendance of more 1,200.'
+                    'I have known Professor Gaudiot for nearly 30 years both professionally and personally. His expertise in parallel computing is well known and he has made major contributions to the field over a long period. He also makes substantial contributions to the professional activities of the IEEE through various committees, boards and journal editorships. On a personal level, Jean-Luc is hard working and operates at the highest ethical standard. For all these reasons he is very well placed to serve as IEEE Computer Society Division Director and i recommend his wholeheartedly.'
                 ],
                 author: [
                     'David Abramson ',
