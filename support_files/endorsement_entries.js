@@ -359,7 +359,7 @@ For these reasons and many more, I wholeheartedly and enthusiastically support J
             }, {
                 coordinates: [39.1081, 117.1762],
                 quote: [
-                    ' I worked with Prof. Gaudiot in my role as one of the members of the TPDS EIC Search Committee and he was the chair. From this event, I could see his deep love of the IEEE Computer Society. Prof. Gaudiot is a remarkable academic model, which can be seen from his knowledge, visionary and thought-provoking thinking, prompt reaction, etc. Furthermore, Prof. Gaudiot has contributed much to the IEEE Computer Society and know well about this society. I have no doubt that Professor Gaudiot will be an outstanding representative of the Computer Society as a Division Director.  I was glad to work with him on the organizing committee of ISCA 2025 to make it the roaring success it was'
+                    ' I worked with Prof. Gaudiot in my role as one of the members of the TPDS EIC Search Committee and he was the chair. From this event, I could see his deep love of the IEEE Computer Society. Prof. Gaudiot is a remarkable academic model, which can be seen from his knowledge, visionary and thought-provoking thinking, prompt reaction, etc. Furthermore, Prof. Gaudiot has contributed much to the IEEE Computer Society and know well about this society. I have no doubt that Professor Gaudiot will be an outstanding representative of the Computer Society as a Division Director.  I was glad to work with him on the organizing committee of ISCA 2025 to make it the roaring success it was.'
                 ],
                 author: [
                     'Keqiu Li',
