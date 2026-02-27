@@ -69,10 +69,7 @@ export const countries = [
             }, {
                 coordinates: [38.89511, -77.03637],
                 quote: [
-                    'Jean-Luc is a a skilled and highly effective in the IEEE.  He is good\n' +
-                    'advocate of this positions, knows how to work with people and how to\n' +
-                    'stand against ideas that are not good.  He’ll be a very good Division\n' +
-                    'Director.'
+                    'Jean Luc is a long term member of the IEEE who knows the organization well, has served in many important capacities, and knows how it works.  He will be an effective advocate for ideas that will be the best for the Institute and the best for the Computer Society.  He has my full support.  '
                 ],
                 author: [
                     'David Alan Grier',
