@@ -149,7 +149,7 @@ export const countries = [
                 quote: [
                     'It is a pleasure to wholeheartedly support Prof. Jean-Luc Gaudiot for IEEE Computer Society Division Director. I have been very familiar with his excellent research for many decades. In more recent times I had the opportunity to meet him and exchange views regarding many issues in the field. I share his vision regarding the IEEE Computer Society, especially regarding the Society\'s international presence and outreach. At the same time I am confident that his stellar record in demanding administration posts, combined with his academic excellence and ties with industry will lead to a very successful term.'],
                 author: ['Apostolos Dollas,',
-                    'Professor and Dean of EC',
+                    'Professor Emeritus',
                     'Technical University of Crete, Greece',
                 ],
             }],
