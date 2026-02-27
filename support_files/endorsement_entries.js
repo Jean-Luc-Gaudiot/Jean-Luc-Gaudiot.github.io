@@ -31,6 +31,14 @@ export const countries = [
                     'University of Illinois, Urbana-Champaign',
                     'ACM - IEEE CS Eckert-Mauchly Award Winner'
                 ],
+                       }, {
+                coordinates: [-33.86894, 151.20958],
+                quote: [
+                    'I have had the privilege of knowing Jean-Luc for over 15 years through our collaborations on multiple Computer Society projects and several professional and scholarly engagements. Over these years, I have consistently admired his strategic thinking, inspiring leadership, sound judgment, and creative ideas—qualities that have profoundly benefited our community. I can think of no one better suited than Jean-Luc for the Division Director position.'
+                ],
+                author: ['San Murugesan',
+                    'Director, BRITE Professional Services and IEEE Life Senior Member'
+                ],
             }, {
                 coordinates: [41.272998908, -73.775496898],
                 quote: [
