@@ -44,8 +44,9 @@ export const countries = [
                 quote: [
                     'It is a great pleasure to support Prof. Gaudiot as candidate for IEEE Computer Society Division V Director. Prof. Gaudiot is a distinguished researcher, educator and visionary in the field of computer systems. Long before the current interest in parallel systems, Prof. Gaudiot helped create some of the very fora that researchers and practitioners rely on today to exploit parallel systems as a cofounder and steering committee chair of the PACT conference. Dr. Gaudiot has demonstrated his visionary leadership and passion by founding IEEE Computer Architecture Letters. Through his thoughtful leadership and commitment to service, Dr. Gaudiot has been deeply engaged in nearly every aspect of the Computer Society, including awards selection, editorial leadership for publications, and as program committee and general chair of many major IEEE conferences. I am convinced that this combination of visionary leadership and organizational skills will make Prof. Jean-Luc Gaudiot an outstanding Division Director to represent the IEEE Computer Society.'
                 ],
-                author: ['Valentina Salapura, Manager, Watson Health Cloud , ' +
-                'Member, IBM Academy of Technology - IBM Master Inventor, IBM T.J. Watson Research Center'
+                author: ['Valentina Salapura',
+                    'Manager, Watson Health Cloud, Member, IBM Academy of Technology',
+                    'IBM Master Inventor, IBM T.J. Watson Research Center'
                 ],
             }, {
                 coordinates: [41.26463091054758, -73.73054941218821],
