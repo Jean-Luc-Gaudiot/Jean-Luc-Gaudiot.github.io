@@ -32,14 +32,6 @@ export const countries = [
                     'ACM - IEEE CS Eckert-Mauchly Award Winner'
                 ],
             }, {
-                coordinates: [-33.86894, 151.20958],
-                quote: [
-                    'I have had the privilege of knowing Jean-Luc for over 15 years through our collaborations on multiple Computer Society projects and several professional and scholarly engagements. Over these years, I have consistently admired his strategic thinking, inspiring leadership, sound judgment, and creative ideas—qualities that have profoundly benefited our community. I can think of no one better suited than Jean-Luc for the Division Director position.'
-                ],
-                author: ['San Murugesan',
-                    'Director, BRITE Professional Services and IEEE Life Senior Member'
-                ],
-            }, {
                 coordinates: [41.272998908, -73.775496898],
                 quote: [
                     'It is a great pleasure to support Prof. Gaudiot as candidate for IEEE Computer Society Division V Director. Prof. Gaudiot is a distinguished researcher, educator and visionary in the field of computer systems. Long before the current interest in parallel systems, Prof. Gaudiot helped create some of the very fora that researchers and practitioners rely on today to exploit parallel systems as a cofounder and steering committee chair of the PACT conference. Dr. Gaudiot has demonstrated his visionary leadership and passion by founding IEEE Computer Architecture Letters. Through his thoughtful leadership and commitment to service, Dr. Gaudiot has been deeply engaged in nearly every aspect of the Computer Society, including awards selection, editorial leadership for publications, and as program committee and general chair of many major IEEE conferences. I am convinced that this combination of visionary leadership and organizational skills will make Prof. Jean-Luc Gaudiot an outstanding Division Director to represent the IEEE Computer Society.'
