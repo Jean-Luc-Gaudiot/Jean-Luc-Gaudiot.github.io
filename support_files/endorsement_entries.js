@@ -450,6 +450,21 @@ export const countries = [
                 ],
             }],
     },
+
+      {
+        country_name: 'Taiwan',
+        endorsements:
+            [{
+                coordinates: [24.226057062242017, 120.57726639853219],
+                quote: [
+                    'I have known Jean-Luc for over 30 years now.  He has been my mentor and friend since I was an undergraduate student.  He is an amazing advisor and I know my career has benefited much from his guidance.  His service to the community has been inspiring to me and I believe he will continue excelling if he is elected to Division Director.'],
+                author: [
+                    'Kuan-Ching Li',
+                    'Life Distinguished Professor,',
+                    'Providence University, Taiwan',
+                ],
+            }],
+    },
     {
         country_name: 'Brazil',
         endorsements:
