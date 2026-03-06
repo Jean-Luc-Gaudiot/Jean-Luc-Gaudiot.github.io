@@ -140,6 +140,18 @@ export const countries = [
                     'University of Oxford',
                 ],
             }],
+
+                    [{
+                coordinates: [51.52080, -0.13966],
+                quote: [
+                    'Jean-Luc’s dedication to the field of computing systems and its vibrant community is outstanding. He has contributed through a large variety of leadership roles including program chair, EiC of IEEE Transactions on Computers and co-founding EiC of IEEE Computer Architecture Letters, elected chair for IEEE Technical Committee of Computer Architecture, and others. I have worked with Jean-Luc in various capacities over the past 25 yers and have been trully impressed by his dedication and achievements as a community sevices volunteer. In particular, I believe that Prof. Gaudiot's strategic technical vision and past experience as an IEEE Computer Society President make him a uniquely qualified candidate for the IEEE Computer Society Division Director position. Therefore, I am fully confident that Jean-Luc Gaudiot is an excellent candidate for the position of IEEE Computer Society Division V Director.'
+                ],
+                author: [
+                    'Vladimir Getov',
+                    'Professor Emeritus',
+                    'University of Oxford',
+                ],
+            }],
     },
     {
         country_name: 'Greece',
