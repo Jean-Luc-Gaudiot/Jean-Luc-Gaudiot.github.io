@@ -165,6 +165,22 @@ export const countries = [
                 ],
             }],
     },
+
+  {
+        country_name: 'Switzerland',
+        endorsements:
+
+            [{
+                coordinates: [47.37659, 8.54757],
+                quote: [
+                    'Jean-Luc is an internationally recognized researcher in our field who has, on top of his technical work, given selflessly to our community.  I observed his highly successful leadership of the Computer Society as president.  Then, last year, he chaired the top conference in the computer architecture domain (the International Symposium on Computer Architecture), which enjoyed record attendance under his leadership.  This was a memorable meeting to all the attendees for its outstanding organization and seamless offering of many events.  Jean-Luc's service to the community has been remarkable and I can think of no one better than him to represent the Computer Society as Division Director.'],
+                author: ['Onu Mutlu,',
+                    'Professor of Computer Science',
+                    'ETH Zürich',
+                ],
+            }],
+    },
+    
     {
         country_name: 'Korea',
         endorsements:
