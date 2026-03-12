@@ -22,6 +22,17 @@ export const countries = [
                     'ACM - IEEE CS Eckert-Mauchly Award Winner'
                 ],
             }, {
+                coordinates: [40.81966,-9670444],
+                quote: [
+                    'Jean-Luc's depth of experience in our discipline and in IEEE affairs will greatly benefit our division and the Society.'
+                ],
+                author: ['Marilyn Wolf',
+                    'Elmer E. Koch Professor of Engineering',
+                    'University of Nebraska-Lincoln'
+                ],
+            }, 
+                
+{
                 coordinates: [40.1019523, -88.2271615],
                 quote: [
                     'It is my great pleasure to endorse Prof. Jean-Luc Gaudiot for IEEE Computer Society Division Director. I have interacted with Jean-Luc for more than 35 years. Jean-Luc is an accomplished scholar and a well-recognized leader. I worked with Jean-Luc on the IEEE Computer Architecture Letters editorial board as well as many other committees. Jean-Luc has always served our community with the highest level of energy, thoughtfulness, and integrity. His service to the community as the IEEE Computer Society President was exemplary! I am very glad to learn that Jean-Luc is willing to serve as the president of the Computer Society Division Director. I am confident that if elected, he would once again bring great value to the position and provide excellent leadership to the Society.'
@@ -31,7 +42,10 @@ export const countries = [
                     'University of Illinois, Urbana-Champaign',
                     'ACM - IEEE CS Eckert-Mauchly Award Winner'
                 ],
-            }, {
+            },                
+                
+                
+                {
                 coordinates: [41.272998908, -73.775496898],
                 quote: [
                     'It is a great pleasure to support Prof. Gaudiot as candidate for IEEE Computer Society Division V Director. Prof. Gaudiot is a distinguished researcher, educator and visionary in the field of computer systems. Long before the current interest in parallel systems, Prof. Gaudiot helped create some of the very fora that researchers and practitioners rely on today to exploit parallel systems as a cofounder and steering committee chair of the PACT conference. Dr. Gaudiot has demonstrated his visionary leadership and passion by founding IEEE Computer Architecture Letters. Through his thoughtful leadership and commitment to service, Dr. Gaudiot has been deeply engaged in nearly every aspect of the Computer Society, including awards selection, editorial leadership for publications, and as program committee and general chair of many major IEEE conferences. I am convinced that this combination of visionary leadership and organizational skills will make Prof. Jean-Luc Gaudiot an outstanding Division Director to represent the IEEE Computer Society.'
