@@ -21,15 +21,6 @@ export const countries = [
                     'University of Texas at Austin, TX, Ernest Cockrell, Jr. Centennial Chair in Engineering',
                     'ACM - IEEE CS Eckert-Mauchly Award Winner'
                 ],
-            }, {
-                coordinates: [40.81966,-9670444],
-                quote: [
-                    'Jean-Luc's depth of experience in our discipline and in IEEE affairs will greatly benefit our division and the Society.'
-                ],
-                author: ['Marilyn Wolf',
-                    'Elmer E. Koch Professor of Engineering',
-                    'University of Nebraska-Lincoln'
-                ],
             }, 
                 
 {
