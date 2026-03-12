@@ -24,7 +24,7 @@ export const countries = [
             }, {
                 coordinates: [40.81966,-9670444],
                 quote: [
-                    'Jean-Luc's depth of experience in our discipline and in IEEE affairs will greatly benefit our division and the Society.'
+                    'Jean-Luc\'s depth of experience in our discipline and in IEEE affairs will greatly benefit our division and the Society.'
                 ],
                 author: [
                     'Marilyn Wolf',
