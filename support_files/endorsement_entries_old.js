@@ -17,6 +17,13 @@ export const countries_old = [
                         'IBM T.J. Watson Research Center'],
                 },
 
+                { coordinates : [40.81966,-96.70444],
+                    quote : ['It is a great pleasure to support Prof. Gaudiot as candidate for IEEE Computer Society President.  Prof. Gaudiot is a distinguished researcher, educator and visionary in the field of computer systems.  Long before the current interest in parallel systems, Prof. Gaudiot helped create some of the very fora that researchers and practitioners rely on today to exploit parallel systems as a cofounder and steering committee chair of the PACT conference.  Dr. Gaudiot has demonstrated his visionary leadership and passion by founding IEEE Computer Architecture Letters.  Through his thoughtful leadership and commitment to service, Dr. Gaudiot has been deeply engaged in nearly every aspect of the Computer Society, including awards selection, editorial leadership for publications, and as program committee and general chair of many major IEEE conferences.  I am convinced that this combination of visionary leadership and organizational skills will make Prof. Jean-Luc Gaudiot an outstanding President of the IEEE Computer Society.'],
+                    author : ['Marilyn Wolf',
+                        'Elmer E. Koch Professor of Engineering  ',
+                        'University of Nebraska-Lincoln',]
+                },
+
                 { coordinates : [34.0197345,-118.2900617],
                     quote: ['I have had the unique privilege of interacting with Jean-Luc for over thirty years, first as a highly regarded colleague at USC, as a respected member of the broader research community and as a IEEE Computer Society volunteer in many roles. I am impressed with his vision, his commitment to the leadership roles and creating value for the communities he served. I think he will be an excellent choice for the CS president.  He has my most enthusiastic endorsement.'],
                     author: ['Viktor Prasanna',
