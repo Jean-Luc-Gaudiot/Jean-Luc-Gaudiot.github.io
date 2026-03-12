@@ -21,9 +21,17 @@ export const countries = [
                     'University of Texas at Austin, TX, Ernest Cockrell, Jr. Centennial Chair in Engineering',
                     'ACM - IEEE CS Eckert-Mauchly Award Winner'
                 ],
-            }, 
-                
-{
+            }, {
+                coordinates: [40.81966,-9670444],
+                quote: [
+                    'Jean-Luc's depth of experience in our discipline and in IEEE affairs will greatly benefit our division and the Society.'
+                ],
+                author: [
+                    'Marilyn Wolf',
+                    'Elmer E. Koch Professor of Engineering',
+                    'University of Nebraska-Lincoln'
+                ],
+            }, {
                 coordinates: [40.1019523, -88.2271615],
                 quote: [
                     'It is my great pleasure to endorse Prof. Jean-Luc Gaudiot for IEEE Computer Society Division Director. I have interacted with Jean-Luc for more than 35 years. Jean-Luc is an accomplished scholar and a well-recognized leader. I worked with Jean-Luc on the IEEE Computer Architecture Letters editorial board as well as many other committees. Jean-Luc has always served our community with the highest level of energy, thoughtfulness, and integrity. His service to the community as the IEEE Computer Society President was exemplary! I am very glad to learn that Jean-Luc is willing to serve as the president of the Computer Society Division Director. I am confident that if elected, he would once again bring great value to the position and provide excellent leadership to the Society.'
