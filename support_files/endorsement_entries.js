@@ -12,6 +12,18 @@ export const countries = [
                         'Cal State Fullerton Emeritus Professor - IEEE Computer Society President Emeritus'
                     ],
                 }, {
+                coordinates: [44.98643, -93.26162],
+                quote: [
+                    ' I strongly endorse Jean Luc Gaudiot as an outstanding candidate for Division V Director. Over the years, I have had the privilege of working alongside him on the IEEE Computer Society Board of Governors, where he held positions including Vice President for Education and Vice President for Publications. During our collaboration, I was continually impressed by his dedication and steadfast support for the mission of Computer Society. His diverse experience within IEEE will be a benefit to IEEE as a Director.
+
+Jean Luc's recent recognition as the recipient of the 2026 Richard E. Merwin Award for Distinguished Service is a clear testament to his exemplary commitment and service to IEEE. This honor underscores his leadership, dedication, and lasting contributions to IEEE and the broader computing profession.
+
+2026 Richard E. Merwin Award for Distinguished Service "For exemplary service, leadership and dedication to IEEE, the IEEE Computer Society, and long-lasting contributions to the Computing Profession at large."'],
+                author: [
+                    'Chris Shober, Retired Honeywell enginneer',
+                    'Past IEEE Division V Director, past IEEE Division VIII Director and past President of the Sensors Council'
+                ],
+            }, {
                 coordinates: [30.266666, -97.733330],
                 quote: [
                     ' In my view there are several necessary conditions for being an outstanding Division Director. The candidate must be knowledgeable on IEEE issues, and deep understanding of the mechanisms available within IEEE to deal with them. Jean-Luc has served in many key positions in IEEE for many years, including President of the Computer Society, which makes him exceptionally knowledgeable where it counts. The candidate must be genuinely fair minded. Anyone who knows Jean-Luc knows he gets high marks on this. Finally, the candidate must enjoy performing the service that being a Division Director will entail. Jean-Luc has demonstrated that commitment to service in every IEEE role he has assumed. Bottom line: It is a pleasure to endorse his candidacy for Division Director with no reservations whatsoever. In my view, IEEE would be lucky to have Jean-Luc in that role.'
