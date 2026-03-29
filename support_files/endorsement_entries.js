@@ -16,7 +16,7 @@ export const countries = [
                 quote: [
                     ' I strongly endorse Jean Luc Gaudiot as an outstanding candidate for Division V Director. Over the years, I have had the privilege of working alongside him on the IEEE Computer Society Board of Governors, where he held positions including Vice President for Education and Vice President for Publications. During our collaboration, I was continually impressed by his dedication and steadfast support for the mission of Computer Society. His diverse experience within IEEE will be a benefit to IEEE as a Director. Jean Luc\'s recent recognition as the recipient of the 2026 Richard E. Merwin Award for Distinguished Service is a clear testament to his exemplary commitment and service to IEEE. This honor underscores his leadership, dedication, and lasting contributions to IEEE and the broader computing profession.'],
                 author: [
-                    'Chris Shober, Retired Honeywell engineer',
+                    'Chris Schober, Retired Honeywell engineer',
                     'Past IEEE Division V Director, past IEEE Division VIII Director and past President of the Sensors Council'
                 ],
             }, {
