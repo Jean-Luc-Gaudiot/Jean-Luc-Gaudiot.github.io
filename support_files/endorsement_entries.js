@@ -49,6 +49,18 @@ export const countries = [
                     'University of Illinois, Urbana-Champaign',
                     'ACM - IEEE CS Eckert-Mauchly Award Winner'
                 ],
+
+                                }, {
+                coordinates: [40.1019523, -88.2271615],
+                quote: [
+                    'I am pleased to offer my wholehearted public endorsement of Jean-Luc Gaudiot for IEEE Division Director representing the Computer Society. Jean-Luc’s distinguished service to IEEE — including his tenure as Computer Society President and his recognition with the prestigious Richard Merwin Award for Service — clearly demonstrates the leadership, commitment, and service that make him the ideal candidate for this role. His proven leadership and deep commitment to the community position him to drive meaningful progress in AI technical leadership, diversity and geographic representation, and grassroots engagement. I am confident Jean-Luc will bring outstanding service and true servant leadership to this new position, ensuring the Computer Society\’s impact continues to grow on a global scale.'
+                ],
+                author: ['Wen-Mei Hwu',
+                    'AMD Jerry Sanders Chair of Electrical and Computer Engineering',
+                    'University of Illinois, Urbana-Champaign',
+                    'ACM - IEEE CS Eckert-Mauchly Award Winner'
+                ],
+                    
             },                
                 
                 
