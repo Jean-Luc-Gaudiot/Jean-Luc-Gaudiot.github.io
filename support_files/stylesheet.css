@@ -280,3 +280,43 @@
         color: #f1f1f1;
     }
 }
+
+body[data-page="contact"] {
+    padding-top: 20vh;
+    padding-bottom: 6vh;
+}
+
+body[data-page="contact"] .bodySection {
+    position: static;
+    top: auto;
+    left: auto;
+    width: auto;
+    height: auto;
+    overflow: visible;
+    display: flex;
+    align-items: flex-start;
+}
+
+body[data-page="contact"] #site-nav {
+    flex: 0 0 15%;
+    min-width: 120px;
+}
+
+body[data-page="contact"] .navigationBar {
+    position: static;
+    float: none;
+    height: auto;
+    width: 100%;
+}
+
+body[data-page="contact"] .contentBlock {
+    float: none;
+    width: auto;
+    height: auto;
+    max-width: 42rem;
+    padding-left: 1.5rem;
+}
+
+body[data-page="contact"] .img_block {
+    display: none;
+}
