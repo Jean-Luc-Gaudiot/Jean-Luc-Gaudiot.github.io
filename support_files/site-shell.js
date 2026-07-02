@@ -48,6 +48,19 @@
         return;
     }
 
+    let pageContent = document.getElementById("pageContent");
+    if (!pageContent) {
+        pageContent = document.createElement("div");
+        pageContent.id = "pageContent";
+        pageContent.className = "pageContent";
+
+        const movableChildren = Array.from(bodySection.children).filter((child) => child.id !== "site-nav");
+        if (movableChildren.length > 0) {
+            bodySection.appendChild(pageContent);
+            movableChildren.forEach((child) => pageContent.appendChild(child));
+        }
+    }
+
     navHost.innerHTML = `
         <div class="navigationBar" data-scrolled="true" id="navBar">
             <nav>

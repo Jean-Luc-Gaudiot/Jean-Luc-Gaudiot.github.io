@@ -120,20 +120,34 @@ body::before {
     max-width: var(--content-max);
     margin: 0 auto;
     padding: 1.25rem 1rem 1.5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1.25rem;
+}
+
+#site-nav {
+    position: sticky;
+    top: calc(var(--header-height) + var(--banner-height) + 0.75rem);
+    z-index: 18;
+    margin-bottom: 0.25rem;
+}
+
+.pageContent {
     display: grid;
     grid-template-columns: minmax(0, 1fr) 18rem;
     gap: 1.25rem;
     align-items: start;
+    padding-top: 0.25rem;
 }
 
-#site-nav {
-    grid-column: 1 / -1;
+#pageContent {
+    width: 100%;
 }
 
 .navigationBar {
     border: 1px solid var(--surface-border);
     border-radius: var(--radius);
-    background: var(--surface);
+    background: rgba(249, 252, 251, 0.98);
     box-shadow: var(--shadow);
     overflow: hidden;
 }
@@ -480,6 +494,10 @@ body[data-page="contact"] .contentBlock {
     max-width: 46rem;
 }
 
+body[data-page="contact"] .pageContent {
+    grid-template-columns: minmax(0, 1fr);
+}
+
 body[data-page="scholarly-work"] .contentBlock,
 body[data-page="scholarly-work"] .contentBlock * {
     font-family: "Trebuchet MS", "Gill Sans", "Segoe UI", sans-serif !important;
@@ -509,7 +527,7 @@ body[data-page="contact"] .contentBlock {
 }
 
 @media (max-width: 560px) {
-    .bodySection {
+    .pageContent {
         grid-template-columns: 1fr;
     }
 
