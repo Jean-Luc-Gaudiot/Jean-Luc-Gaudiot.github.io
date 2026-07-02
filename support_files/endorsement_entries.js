@@ -502,7 +502,7 @@ export const countries = [
         country_name: 'Italy',
         endorsements:
             [{
-                coordinates: [44.496990,11.353396],
+                coordinates: [44.496990, 11.353396],
                 quote: [
                     'I am pleased to support Jean-Luc Gaudiot for IEEE Division V Director.
                     .'],
