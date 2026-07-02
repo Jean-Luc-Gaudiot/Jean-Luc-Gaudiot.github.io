@@ -504,6 +504,44 @@ body[data-page="scholarly-work"] .contentBlock * {
     font-family: "Trebuchet MS", "Gill Sans", "Segoe UI", sans-serif !important;
 }
 
+body[data-page="scholarly-work"] .scholarly-work h3 {
+    margin: 0 0 0.85rem;
+    font-size: 2rem;
+    line-height: 1.1;
+}
+
+body[data-page="scholarly-work"] .scholarlyIntro {
+    margin: 0 0 1rem;
+    font-size: 1.05rem;
+    line-height: 1.6;
+}
+
+body[data-page="scholarly-work"] .scholarlySection {
+    margin-top: 1rem;
+}
+
+body[data-page="scholarly-work"] .scholarlySection h4 {
+    margin: 0 0 0.55rem;
+    padding-bottom: 0.35rem;
+    border-bottom: 0.75pt solid #000000;
+    font-size: 1.05rem;
+    line-height: 1.2;
+}
+
+body[data-page="scholarly-work"] .scholarlySection ul {
+    margin: 0;
+    padding-left: 1.15rem;
+}
+
+body[data-page="scholarly-work"] .scholarlySection li {
+    margin: 0.3rem 0;
+    line-height: 1.55;
+}
+
+body[data-page="scholarly-work"] .scholarlySection a {
+    text-decoration: none;
+}
+
 body[data-page="scholarly-work"] .contentBlock {
     grid-column: 1;
     min-width: 0;
