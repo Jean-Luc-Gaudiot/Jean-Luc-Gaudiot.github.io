@@ -53,6 +53,9 @@
         pageContent = document.createElement("div");
         pageContent.id = "pageContent";
         pageContent.className = "pageContent";
+        pageContent.style.flex = "1 1 auto";
+        pageContent.style.minHeight = "0";
+        pageContent.style.overflowY = "auto";
 
         const movableChildren = Array.from(bodySection.children).filter((child) => child.id !== "site-nav");
         if (movableChildren.length > 0) {
