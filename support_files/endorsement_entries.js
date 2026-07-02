@@ -503,14 +503,14 @@ export const countries = [
         endorsements:
             [{
                 coordinates: [44.496990, 11.353396],
-                quote: [
+                quote: ['
 //                    'I am pleased to support Jean-Luc Gaudiot for IEEE Division V Director.
 //                    .'],
 //
 //I have known Jean-Luc since 1992 as both a colleague and a friend. Over the years, I have had the opportunity to support him in many IEEE and IEEE Computer Society volunteer roles, including his successful election as President of the IEEE Computer Society. Throughout that time, he has consistently earned the trust and respect of his colleagues through his integrity, sound judgment, and dedication to the IEEE community.
 //
 //Jean-Luc has a proven ability to identify important challenges, develop meaningful new initiatives, and bring people together to achieve common goals. I am confident that he will provide thoughtful and effective leadership as IEEE Division V Director, and I am pleased to endorse his candidacy.'],
-]
+'],
                     author: [
                     'Sumi Helal',
                     'Professor,',
