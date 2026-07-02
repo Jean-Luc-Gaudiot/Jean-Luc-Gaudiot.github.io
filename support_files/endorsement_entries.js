@@ -507,7 +507,7 @@ export const countries = [
             [{
                 coordinates: [44.496990, 11.353396],
                 quote: [
-                    'I have known Professor Gaudiot for nearly 30 years both professionally and personally. His expertise in parallel computing is well known and he has made major contributions to the field over a long period. He also makes substantial contributions to the professional activities of the IEEE through various committees, boards and journal editorships. On a personal level, Jean-Luc is hard working and operates at the highest ethical standard. For all these reasons he is very well placed to serve as IEEE Computer Society Division Director and i recommend his wholeheartedly.  I have further observed his leadership of ISCA 2025.  As co General Chair, he steered the conference to a record attendance of more 1,200.'
+                    'I have known Jean-Luc since 1992 as both a colleague and a friend. Over the years, I have had the opportunity to support him in many IEEE and IEEE Computer Society volunteer roles, including his successful election as President of the IEEE Computer Society. Throughout that time, he has consistently earned the trust and respect of his colleagues through his integrity, sound judgment, and dedication to the IEEE community.'
                 ],
                 author: [
                     'Sumi Helal ',
