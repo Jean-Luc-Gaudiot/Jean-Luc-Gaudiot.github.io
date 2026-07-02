@@ -1,13 +1,13 @@
 :root {
-    --bg-start: #f6f2e8;
-    --bg-end: #e7eff1;
-    --surface: rgba(255, 255, 255, 0.84);
-    --surface-border: rgba(18, 58, 61, 0.12);
+    --bg-start: #f7f6f1;
+    --bg-end: #f7f6f1;
+    --surface: #ffffff;
+    --surface-border: rgba(18, 58, 61, 0.08);
     --text: #153034;
     --muted: #4f666b;
     --accent: #0f7a67;
     --accent-2: #14586a;
-    --shadow: 0 20px 50px rgba(15, 40, 44, 0.12);
+    --shadow: 0 10px 24px rgba(15, 40, 44, 0.08);
     --radius: 24px;
     --header-height: 4.75rem;
     --banner-height: 2.75rem;
@@ -23,10 +23,7 @@ body {
     margin: 0;
     min-height: 100vh;
     color: var(--text);
-    background:
-        radial-gradient(circle at top left, rgba(15, 122, 103, 0.14), transparent 32%),
-        radial-gradient(circle at top right, rgba(20, 88, 106, 0.12), transparent 28%),
-        linear-gradient(180deg, var(--bg-start) 0%, var(--bg-end) 100%);
+    background: linear-gradient(180deg, var(--bg-start) 0%, var(--bg-end) 100%);
     font-family: "Trebuchet MS", "Gill Sans", "Segoe UI", sans-serif;
     -webkit-font-smoothing: antialiased;
     text-rendering: optimizeLegibility;
@@ -108,34 +105,31 @@ body {
 
 .bodySection {
     position: fixed;
-    top: calc(var(--header-height) + var(--banner-height) + 1rem);
-    bottom: calc(var(--footer-height) + 1rem);
+    top: calc(var(--header-height) + var(--banner-height) + 0.5rem);
+    bottom: calc(var(--footer-height) + 0.5rem);
     left: 0;
     right: 0;
     max-width: var(--content-max);
     margin: 0 auto;
-    padding: 1.25rem 1rem 1.5rem;
+    padding: 0.85rem 1rem 1rem;
     display: flex;
     flex-direction: column;
-    gap: 1.25rem;
+    gap: 0.85rem;
     box-sizing: border-box;
     overflow: hidden;
 }
 
 #site-nav {
-    position: sticky;
-    top: calc(var(--header-height) + var(--banner-height) + 0.75rem);
-    z-index: 18;
     position: static;
-    margin-bottom: 0.25rem;
+    margin-bottom: 0;
 }
 
 .pageContent {
     display: grid;
     grid-template-columns: minmax(0, 1fr);
-    gap: 1.25rem;
+    gap: 0.85rem;
     align-items: start;
-    padding-top: 0.25rem;
+    padding-top: 0;
     flex: 1 1 auto;
     min-height: 0;
     overflow-y: auto;
@@ -148,13 +142,13 @@ body {
 .navigationBar {
     border: 1px solid var(--surface-border);
     border-radius: var(--radius);
-    background: var(--surface);
+    background: #ffffff;
     box-shadow: var(--shadow);
     overflow: hidden;
 }
 
 .navigationBar nav {
-    padding: 0.85rem;
+    padding: 0.6rem;
 }
 
 .navigationBar ul {
@@ -288,9 +282,9 @@ button:focus-visible {
     }
 
     .bodySection {
-        padding: 0.9rem 0.8rem 1rem;
-        top: calc(var(--header-height) + var(--banner-height) + 0.75rem);
-        bottom: calc(var(--footer-height) + 0.75rem);
+        padding: 0.7rem 0.8rem 0.85rem;
+        top: calc(var(--header-height) + var(--banner-height) + 0.4rem);
+        bottom: calc(var(--footer-height) + 0.4rem);
     }
 
     .navigationBar nav {
