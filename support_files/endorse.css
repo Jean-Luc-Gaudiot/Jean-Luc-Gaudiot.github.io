@@ -30,8 +30,8 @@ body {
     font-family: "Trebuchet MS", "Gill Sans", "Segoe UI", sans-serif;
     -webkit-font-smoothing: antialiased;
     text-rendering: optimizeLegibility;
-    padding-top: calc(var(--header-height) + var(--banner-height) + 1rem);
-    padding-bottom: calc(var(--footer-height) + 1rem);
+    padding: 0;
+    overflow: hidden;
 }
 
 .TitleBanner,
@@ -107,14 +107,42 @@ body {
 }
 
 .bodySection {
-    position: relative;
+    position: fixed;
+    top: calc(var(--header-height) + var(--banner-height) + 1rem);
+    bottom: calc(var(--footer-height) + 1rem);
+    left: 0;
+    right: 0;
     max-width: var(--content-max);
     margin: 0 auto;
     padding: 1.25rem 1rem 1.5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1.25rem;
+    box-sizing: border-box;
+    overflow: hidden;
 }
 
 #site-nav {
-    margin-bottom: 1.25rem;
+    position: sticky;
+    top: calc(var(--header-height) + var(--banner-height) + 0.75rem);
+    z-index: 18;
+    position: static;
+    margin-bottom: 0.25rem;
+}
+
+.pageContent {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr);
+    gap: 1.25rem;
+    align-items: start;
+    padding-top: 0.25rem;
+    flex: 1 1 auto;
+    min-height: 0;
+    overflow-y: auto;
+}
+
+#pageContent {
+    width: 100%;
 }
 
 .navigationBar {
@@ -246,7 +274,7 @@ button:focus-visible {
     }
 
     body {
-        padding-top: calc(var(--header-height) + var(--banner-height) + 0.75rem);
+        overflow: hidden;
     }
 
     .TitleBanner .Title {
@@ -261,6 +289,8 @@ button:focus-visible {
 
     .bodySection {
         padding: 0.9rem 0.8rem 1rem;
+        top: calc(var(--header-height) + var(--banner-height) + 0.75rem);
+        bottom: calc(var(--footer-height) + 0.75rem);
     }
 
     .navigationBar nav {

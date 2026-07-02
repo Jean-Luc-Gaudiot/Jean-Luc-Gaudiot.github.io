@@ -35,6 +35,13 @@
         return;
     }
 
+    if (!document.querySelector('meta[name="viewport"]')) {
+        const viewportMeta = document.createElement("meta");
+        viewportMeta.name = "viewport";
+        viewportMeta.content = "width=device-width, initial-scale=1";
+        document.head.appendChild(viewportMeta);
+    }
+
     if (!document.getElementById("titleBanner")) {
         bodySection.insertAdjacentHTML("beforebegin", headerHtml + bannerHtml);
     }
