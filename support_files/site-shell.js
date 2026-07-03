@@ -50,6 +50,30 @@
         bodySection.insertAdjacentHTML("afterend", footerHtml);
     }
 
+    document.querySelectorAll("#buttonIeee").forEach((button) => {
+        const originalLabel = button.textContent.trim();
+        if (originalLabel && !originalLabel.startsWith("★")) {
+            button.textContent = `★ ${originalLabel}`;
+        }
+
+        const electionUrl = button.getAttribute("href") || "https://www.ieee.org/election";
+        button.dataset.electionUrl = electionUrl;
+        button.setAttribute("href", "#");
+        button.setAttribute("aria-disabled", "true");
+        button.classList.add("is-disabled");
+        button.addEventListener("click", (event) => {
+            event.preventDefault();
+            event.stopPropagation();
+        });
+
+        if (!button.nextElementSibling || !button.nextElementSibling.classList.contains("electionNotice")) {
+            const notice = document.createElement("p");
+            notice.className = "electionNotice";
+            notice.textContent = "The 2026 Annual Election will begin on 17 August and end on 1 October 2026 at 12:00 Noon Eastern Time";
+            button.insertAdjacentElement("afterend", notice);
+        }
+    });
+
     const navHost = document.getElementById("site-nav");
     if (!navHost) {
         return;

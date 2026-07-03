@@ -338,14 +338,14 @@ body[data-page="whats-happening"] .activityEntry + .activityEntry {
 .goalCard {
     position: relative;
     width: 100%;
-    min-height: 5.75rem;
-    padding: 0.8rem 0.9rem 0.75rem;
+    min-height: 0;
+    padding: 0.95rem 1rem 0.95rem;
     border-radius: 20px;
     background: linear-gradient(180deg, rgba(255, 255, 255, 0.94), rgba(241, 248, 247, 0.92));
     border: 1px solid rgba(15, 122, 103, 0.14);
     box-shadow: 0 12px 30px rgba(15, 40, 44, 0.10);
     overflow: hidden;
-    transition: transform 180ms ease, box-shadow 180ms ease, min-height 180ms ease, border-color 180ms ease;
+    transition: transform 180ms ease, box-shadow 180ms ease, border-color 180ms ease;
     justify-self: stretch;
     z-index: 1;
 }
@@ -369,57 +369,43 @@ body[data-page="whats-happening"] .activityEntry + .activityEntry {
 }
 
 .goalCard p {
-    margin: 0.85rem 0 0;
+    margin: 0.6rem 0 0;
     color: var(--text);
     font-size: 0.98rem;
     line-height: 1.55;
-    max-height: 0;
-    opacity: 0;
-    transform: translateY(0.35rem);
-    overflow: hidden;
-    transition: max-height 180ms ease, opacity 180ms ease, transform 180ms ease;
+    opacity: 1;
+    transform: none;
 }
 
 .goalCard:nth-of-type(1) {
     grid-column: 1;
     grid-row: 1;
     justify-self: stretch;
-    transform: translateY(0.15rem);
 }
 
 .goalCard:nth-of-type(2) {
     grid-column: 1;
     grid-row: 2;
     justify-self: stretch;
-    transform: translateY(1.15rem);
 }
 
 .goalCard:nth-of-type(3) {
     grid-column: 1;
     grid-row: 3;
     justify-self: stretch;
-    transform: translateY(2.15rem);
 }
 
 .goalCard:hover,
 .goalCard:focus-visible {
-    transform: translateY(-0.25rem) scale(1.02);
-    min-height: 12rem;
-    box-shadow: 0 20px 40px rgba(15, 40, 44, 0.18);
-    border-color: rgba(15, 122, 103, 0.3);
-    z-index: 3;
+    transform: translateY(-0.15rem);
+    box-shadow: 0 16px 34px rgba(15, 40, 44, 0.14);
+    border-color: rgba(15, 122, 103, 0.22);
+    z-index: 2;
 }
 
 .goalCard:hover::after,
 .goalCard:focus-visible::after {
     opacity: 1;
-}
-
-.goalCard:hover p,
-.goalCard:focus-visible p {
-    max-height: 8rem;
-    opacity: 1;
-    transform: translateY(0);
 }
 
 .lastLine {
@@ -475,6 +461,27 @@ body[data-page="whats-happening"] .activityEntry + .activityEntry {
 .button:focus-visible {
     transform: translateY(-1px);
     box-shadow: 0 16px 30px rgba(15, 122, 103, 0.28);
+}
+
+#buttonIeee,
+.button#buttonIeee {
+    background: linear-gradient(135deg, #c7ccd1, #9ea6ad);
+    color: #1d2a30;
+    box-shadow: 0 10px 20px rgba(29, 42, 48, 0.14);
+}
+
+#buttonIeee.is-disabled,
+.button#buttonIeee.is-disabled {
+    cursor: not-allowed;
+    pointer-events: none;
+    opacity: 0.9;
+}
+
+.electionNotice {
+    margin: 0.45rem 0 0;
+    color: #4f666b;
+    font-size: 0.78rem;
+    line-height: 1.35;
 }
 
 .bodySection::after {
@@ -604,6 +611,7 @@ body[data-page="contact"] .contentBlock {
     :root {
         --header-height: 4.3rem;
         --banner-height: 3rem;
+        --footer-height: 3.3rem;
     }
 
     body {

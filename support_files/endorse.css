@@ -216,6 +216,27 @@ button:focus-visible {
     box-shadow: 0 16px 30px rgba(15, 122, 103, 0.28);
 }
 
+#buttonIeee,
+.button#buttonIeee {
+    background: linear-gradient(135deg, #c7ccd1, #9ea6ad);
+    color: #1d2a30;
+    box-shadow: 0 10px 20px rgba(29, 42, 48, 0.14);
+}
+
+#buttonIeee.is-disabled,
+.button#buttonIeee.is-disabled {
+    cursor: not-allowed;
+    pointer-events: none;
+    opacity: 0.9;
+}
+
+.electionNotice {
+    margin: 0.45rem 0 0;
+    color: #4f666b;
+    font-size: 0.78rem;
+    line-height: 1.35;
+}
+
 .map,
 .list {
     border: 1px solid var(--surface-border);
@@ -265,6 +286,7 @@ button:focus-visible {
     :root {
         --header-height: 4.3rem;
         --banner-height: 3rem;
+        --footer-height: 3.3rem;
     }
 
     body {
