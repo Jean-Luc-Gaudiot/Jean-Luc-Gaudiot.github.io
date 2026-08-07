@@ -465,23 +465,26 @@ body[data-page="whats-happening"] .activityEntry + .activityEntry {
 
 #buttonIeee,
 .button#buttonIeee {
-    background: linear-gradient(135deg, #c7ccd1, #9ea6ad);
-    color: #1d2a30;
-    box-shadow: 0 10px 20px rgba(29, 42, 48, 0.14);
+    background: linear-gradient(135deg, #0f7a67, #14586a);
+    color: #fff;
+    box-shadow: 0 10px 20px rgba(15, 122, 103, 0.24);
 }
 
 #buttonIeee.is-disabled,
 .button#buttonIeee.is-disabled {
+    background: linear-gradient(135deg, #c7ccd1, #9ea6ad);
+    color: #1d2a30;
     cursor: not-allowed;
     pointer-events: none;
     opacity: 0.9;
 }
 
 .electionNotice {
-    margin: 0.45rem 0 0;
+    margin: 0.6rem 0 0;
     color: #4f666b;
-    font-size: 0.78rem;
-    line-height: 1.35;
+    font-size: 1rem;
+    line-height: 1.45;
+    font-weight: 600;
 }
 
 .bodySection::after {
