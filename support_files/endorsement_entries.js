@@ -422,10 +422,10 @@ export const countries = [
                     'Indian Institute of Science',
                     'Bangalore, INDIA 560012',
                 ],
-            }],
+            },
 
 
-            [{
+            {
                 coordinates: [14.0218597, 78.5671423],
                 quote: [
                     'Jean-Luc has served in many high impact positions at the Computer Society, including  as President of the IEEE Computer Society and Chair for IEEE Technical Committee of Computer Architecture for two terms.  His tenure as President of the Computer Society was quite successful, leading us to a better financial situation, new products and improved links with  India and other developing counties.  During his tenure as Chair of IEEE Technical Committee of Computer Architecture, he founded have IEEE Computer Architecture Letters, which has now become a major publication of the Computer Society.  Earlier he has  served as conference organizer, Program Committee chair, Editor-in-Chief of   flagship titles in the Computer Society portfolio of publications.  His contributions to the community is unparalleled.  He has been clearly a successful and effective leader with a powerful long range vision.  I cannot think of a colleague who is more qualified to lead Division V. '
