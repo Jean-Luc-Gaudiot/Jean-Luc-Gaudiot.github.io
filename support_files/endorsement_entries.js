@@ -438,6 +438,7 @@ export const countries = [
                     'Former and Founding   Vice Chancellor, Defence Institute of Advanced Technology, Pune',
                     'IEEE Life Fellow, IEEE CS Technical Achievement Awardee',
                     'Founding Chair, IEEE Bangalore Section Computer   Society  Chapter and  IEEE Student Branch',
+                    'Former Member,  IEEE Bangalore Section Executive Committee',
 
                 ],
             }],
