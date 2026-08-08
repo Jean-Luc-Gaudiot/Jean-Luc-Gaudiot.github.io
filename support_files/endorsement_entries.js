@@ -436,7 +436,7 @@ export const countries = [
                     'Lalit Patnaik',
                     'Adjunct Professor, National Institute of Advanced Studies, Bangalore',
                     'Former and Founding   Vice Chancellor, Defence Institute of Advanced Technology, Pune',
-                    'Bangalore, INDIA',
+                    'IEEE Life Fellow, IEEE CS Technical Achievement Awardee',
 
                 ],
             }],
