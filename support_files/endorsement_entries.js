@@ -435,7 +435,7 @@ export const countries = [
                 author: [
                     'Lalit Patnaik',
                     'Adjunct Professor, National Institute of Advanced Studies, Bangalore',
-                    'Indian Institute of Science',
+                    'Former and Founding   Vice Chancellor, Defence Institute of Advanced Technology, Pune',
                     'Bangalore, INDIA',
 
                 ],
