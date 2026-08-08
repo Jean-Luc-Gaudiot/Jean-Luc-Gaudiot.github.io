@@ -430,11 +430,11 @@ export const countries = [
             {
                 coordinates: [12.029344, 77.564284],
                 quote: [
-                    'I have personal knowledge of the outstanding research contributions and exceptional managerial capabilities of Jean-Luc over the past three decades.'
+                    'I have personal knowledge of the outstanding research contributions and exceptional managerial capabilities of Jean-Luc over the past three decades.  When I initiated academic programs at graduate level at the Indian Institute of Science, Bangalore, in the areas of parallel and distributed computing, I have   followed as reference several of his high quality publications in the areas of dataflow computing and parallel processing for my teaching   and research activities. My students have been immensely benefitted by referring to his outstanding publications. I have met him in few IEEE  Meetings, including one in India, during which he had highly productive interactions with the IEEE Members from Academia and industry. As President of the IEEE Computer Society, he made several high impactful contributions which improved the financial situation of the Society. During his Presidentship  of the IEEE Computer Society,  he spread the presence of  the Society to several regions of the globe leading to the increased visibility  and presence of the IEEE. I am aware of the increased activities and Membership  of the IEEE in India thanks to his personal touch. His vision as Chair of the IEEE Technical Committee on Computer Architecture led to a very significant publication, IEEE Computer Architecture Letters. As the Editor-in-Chief of the IEEE Transactions on Computers, his academic leadership and decisions were of remarkably high   quality. He has organized several IEEE Conferences of the Computer Society which have the highest impact on the quality of the IEEE CS Conferences. With his long years of service   and devotion to the IEEE, his professionalism and global perspective can be of immense value to the IEEE Board of Directors. He carries my strongest endorsement for the IEEE CS Division V Director.'
                 ],
                 author: [
                     'Lalit Patnaik',
-                    'Professor, Department of Computer Science and Automation',
+                    'Adjunct Professor, National Institute of Advanced Studies, Bangalore',
                     'Indian Institute of Science',
                     'Bangalore, INDIA',
 
