@@ -430,8 +430,7 @@ export const countries = [
             {
                 coordinates: [12.029344, 77.564284],
                 quote: [
-                    'I have personal knowledge of the outstanding research contributions and exceptional managerial capabilities of Prof.Jean-Luc, over the past three decades.
-'
+                    'I have personal knowledge of the outstanding research contributions and exceptional managerial capabilities of Jean-Luc over the past three decades.'
                 ],
                 author: [
                     'Lalit Patnaik',
