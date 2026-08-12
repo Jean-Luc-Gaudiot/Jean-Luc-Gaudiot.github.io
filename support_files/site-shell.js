@@ -59,6 +59,8 @@
         const electionUrl = button.getAttribute("href") || "https://www.ieee.org/election";
         button.dataset.electionUrl = electionUrl;
         button.setAttribute("href", electionUrl);
+        button.setAttribute("target", "_blank");
+        button.setAttribute("rel", "noopener noreferrer");
         button.removeAttribute("aria-disabled");
         button.classList.remove("is-disabled");
 
