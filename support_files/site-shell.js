@@ -14,7 +14,7 @@
 
     const headerHtml = `
         <section class="TitleBanner" id="titleBanner">
-            <h1 class="Title" id="title">Jean-Luc Gaudiot for Division V Director</h1>
+            <h1 class="Title" id="title">Jean-Luc Gaudiot for 2027 IEEE Division V Delegate-Elect/Director-Elect</h1>
         </section>`;
 
     const bannerHtml = `
