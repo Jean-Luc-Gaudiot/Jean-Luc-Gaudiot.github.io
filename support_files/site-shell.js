@@ -50,8 +50,8 @@
         bodySection.insertAdjacentHTML("afterend", footerHtml);
     }
 
-    const primaryElectionUrl = "https://urldefense.com/v3/__https://eballot.app/ieee__;!!CzAuKJ42GuquVTTmVmPViYEvSg!OOQiS8HvvBa2gz3m4CihgEFhZBJJyXY1nINiiHY-wJXb2BQbSICHL0CH46zySfLXOzrLsWASg4H5ybU$";
-    const fallbackElectionUrl = "https://urldefense.com/v3/__https://www.ieee.org/election__;!!CzAuKJ42GuquVTTmVmPViYEvSg!OOQiS8HvvBa2gz3m4CihgEFhZBJJyXY1nINiiHY-wJXb2BQbSICHL0CH46zySfLXOzrLsWASP49ZP3w$";
+    const primaryElectionUrl = "http://eballot.app/ieee";
+    const fallbackElectionUrl = "https://www.ieee.org/election";
 
     const voteButtons = [];
 
@@ -94,10 +94,10 @@
         if (!notice) {
             const newNotice = document.createElement("p");
             newNotice.className = "electionNotice";
-            newNotice.innerHTML = `or go to <a href="${fallbackElectionUrl}" target="_blank" rel="noopener noreferrer">here</a><br>Election begins on 17 August 2026 and ends on 1 October 2026.`;
+            newNotice.innerHTML = `or go to <a href="${fallbackElectionUrl}" target="_blank" rel="noopener noreferrer">IEEE election</a><br>Election begins on 17 August 2026 and ends on 1 October 2026.`;
             button.insertAdjacentElement("afterend", newNotice);
         } else {
-            notice.innerHTML = `or go to <a href="${fallbackElectionUrl}" target="_blank" rel="noopener noreferrer">here</a><br>Election begins on 17 August 2026 and ends on 1 October 2026.`;
+            notice.innerHTML = `or go to <a href="${fallbackElectionUrl}" target="_blank" rel="noopener noreferrer">IEEE election</a><br>Election begins on 17 August 2026 and ends on 1 October 2026.`;
         }
     });
 
