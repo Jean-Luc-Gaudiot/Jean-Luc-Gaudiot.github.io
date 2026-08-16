@@ -50,15 +50,38 @@
         bodySection.insertAdjacentHTML("afterend", footerHtml);
     }
 
+    const primaryElectionUrl = "https://urldefense.com/v3/__https://eballot.app/ieee__;!!CzAuKJ42GuquVTTmVmPViYEvSg!OOQiS8HvvBa2gz3m4CihgEFhZBJJyXY1nINiiHY-wJXb2BQbSICHL0CH46zySfLXOzrLsWASg4H5ybU$";
+    const fallbackElectionUrl = "https://urldefense.com/v3/__https://www.ieee.org/election__;!!CzAuKJ42GuquVTTmVmPViYEvSg!OOQiS8HvvBa2gz3m4CihgEFhZBJJyXY1nINiiHY-wJXb2BQbSICHL0CH46zySfLXOzrLsWASP49ZP3w$";
+
+    const voteButtons = [];
+
+    document.querySelectorAll(".voteButtonHost").forEach((host) => {
+        let button = host.querySelector("#buttonIeee");
+        if (!button) {
+            button = document.createElement("a");
+            button.id = "buttonIeee";
+            button.className = "button";
+            button.textContent = "Vote Here";
+            host.appendChild(button);
+        }
+        voteButtons.push(button);
+    });
+
+    // Backward compatibility while old markup is still present.
     document.querySelectorAll("#buttonIeee").forEach((button) => {
+        if (!voteButtons.includes(button)) {
+            voteButtons.push(button);
+        }
+    });
+
+    voteButtons.forEach((button) => {
         const originalLabel = button.textContent.trim();
         if (originalLabel && !originalLabel.startsWith("★")) {
             button.textContent = `★ ${originalLabel}`;
         }
 
-        const electionUrl = button.getAttribute("href") || "https://www.ieee.org/election";
-        button.dataset.electionUrl = electionUrl;
-        button.setAttribute("href", electionUrl);
+        button.dataset.electionUrl = primaryElectionUrl;
+        button.setAttribute("href", primaryElectionUrl);
         button.setAttribute("target", "_blank");
         button.setAttribute("rel", "noopener noreferrer");
         button.removeAttribute("aria-disabled");
@@ -71,10 +94,10 @@
         if (!notice) {
             const newNotice = document.createElement("p");
             newNotice.className = "electionNotice";
-            newNotice.textContent = "Election begins on 17 August 2026 and ends on 1 October 2026.";
+            newNotice.innerHTML = `or go to <a href="${fallbackElectionUrl}" target="_blank" rel="noopener noreferrer">here</a><br>Election begins on 17 August 2026 and ends on 1 October 2026.`;
             button.insertAdjacentElement("afterend", newNotice);
         } else {
-            notice.textContent = "Election begins on 17 August 2026 and ends on 1 October 2026.";
+            notice.innerHTML = `or go to <a href="${fallbackElectionUrl}" target="_blank" rel="noopener noreferrer">here</a><br>Election begins on 17 August 2026 and ends on 1 October 2026.`;
         }
     });
 

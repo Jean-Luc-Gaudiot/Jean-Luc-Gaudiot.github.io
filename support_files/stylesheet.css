@@ -439,6 +439,21 @@ body[data-page="whats-happening"] .activityEntry + .activityEntry {
     box-shadow: 0 12px 30px rgba(15, 40, 44, 0.14);
 }
 
+.voteButtonHost {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.6rem;
+}
+
+.voteButtonHost #buttonIeee {
+    width: 100%;
+    max-width: 18rem;
+    box-sizing: border-box;
+    justify-content: center;
+}
+
 .button {
     display: inline-flex;
     align-items: center;
