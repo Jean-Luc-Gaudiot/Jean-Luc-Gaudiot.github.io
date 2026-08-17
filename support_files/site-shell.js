@@ -50,7 +50,7 @@
         bodySection.insertAdjacentHTML("afterend", footerHtml);
     }
 
-    const primaryElectionUrl = "http://eballot.app/ieee";
+    const primaryElectionUrl = "https://www.ieee.org/election";
     const fallbackElectionUrl = "https://www.ieee.org/election";
 
     const voteButtons = [];
