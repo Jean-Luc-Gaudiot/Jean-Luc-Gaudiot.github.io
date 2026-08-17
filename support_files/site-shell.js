@@ -50,8 +50,7 @@
         bodySection.insertAdjacentHTML("afterend", footerHtml);
     }
 
-    const primaryElectionUrl = "https://www.ieee.org/election";
-    const fallbackElectionUrl = "https://www.ieee.org/election";
+    const primaryElectionUrl = "https://www.ieee.org/elections";
 
     const voteButtons = [];
 
@@ -94,10 +93,10 @@
         if (!notice) {
             const newNotice = document.createElement("p");
             newNotice.className = "electionNotice";
-            newNotice.innerHTML = `or go to <a href="${fallbackElectionUrl}" target="_blank" rel="noopener noreferrer">IEEE election</a><br>Election begins on 17 August 2026 and ends on 1 October 2026.`;
+            newNotice.innerHTML = `Election begins on 17 August 2026 and ends on 1 October 2026.`;
             button.insertAdjacentElement("afterend", newNotice);
         } else {
-            notice.innerHTML = `or go to <a href="${fallbackElectionUrl}" target="_blank" rel="noopener noreferrer">IEEE election</a><br>Election begins on 17 August 2026 and ends on 1 October 2026.`;
+            notice.innerHTML = `Election begins on 17 August 2026 and ends on 1 October 2026.`;
         }
     });
 
