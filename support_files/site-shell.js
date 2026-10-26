@@ -10,6 +10,7 @@
         { id: "scholarly-work", label: "Scholarly work", href: "scholarly_work.html" },
         { id: "cv", label: "CV", href: "support_files/resume.pdf" },
         { id: "contact", label: "Contact", href: "contact.html" },
+        { id: "Elected", label: "I have been elected", href: "contact.html" },
     ];
 
     const headerHtml = `
